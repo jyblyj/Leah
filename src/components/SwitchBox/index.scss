@@ -1,0 +1,30 @@
+.switch{
+    position: relative;
+    .switch-check-box{
+        position: relative;
+        width: 96px;
+        height: 56px;
+        border-radius: 28px;
+        background-color: #a7aaa6;
+    }
+    .switch-container-checked{
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        bottom: 1px;
+        width: 54px;
+        height: 54px;
+        border-radius: 27px;
+        background-color: #ffffff;
+    }
+    .switch-container{
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        bottom: 1px;
+        width: 54px;
+        height: 54px;
+        border-radius: 27px;
+        background-color: #ffffff;
+    }
+}

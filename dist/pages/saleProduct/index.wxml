@@ -1,0 +1,6 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="page-wrap">
+        <header compid="{{$compid__16}}"></header>
+        <image class="page-wrap-img-box" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201903%2F11%2F20190311000407_tlxbh.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1694165424&t=00fb99d6db201d29e9df5412f8fa8a1b" bindtap="anonymousFunc0"></image>
+    </view>
+</block>

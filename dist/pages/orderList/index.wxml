@@ -1,0 +1,23 @@
+<block wx:if="{{$taroCompReady}}">
+    <movable-area class="page-wrap">
+        <header compid="{{$compid__79}}"></header>
+        <view class="search-view">
+            <view class="search-bar">
+                <at-search-bar compid="{{$compid__80}}"></at-search-bar>
+            </view>
+        </view>
+        <view class="tab-view">
+            <view class="item" wx:key="title" wx:for="{{tabList}}" wx:for-item="item" wx:for-index="index">{{item.title}}</view>
+        </view>
+        <scroll-list compid="{{$compid__81}}">
+            <view wx:key="listIndex" class="page-list-item" wx:for="{{loopArray25}}" wx:for-item="listItem" wx:for-index="listIndex">
+                <view class="page-list-item-line">{{listItem.$original.name}}</view>
+                <view class="page-list-item-line">2023-08-09</view>
+                <input class="page-list-item-line" type="number" placeholder="这是一个数字输入框" value="{{listItem.$original.jacketNums}}" />
+                <input class="page-list-item-line" type="number" placeholder="这是一个数字输入框" value="{{listItem.$original.pantsNums}}" />
+                <view class="page-list-item-line">200元</view>
+                <view class="page-list-item-line" bindtap="anonymousFunc0" data-e-tap-so="this" data-e-tap-a-a="{{listItem._$indexKey}}">修改</view>
+            </view>
+        </scroll-list>
+    </movable-area>
+</block>

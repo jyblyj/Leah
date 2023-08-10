@@ -1,0 +1,54 @@
+.index {
+    width: 100%;
+    background-color: #F5F5F5;
+    position: relative;
+    min-height: 100vh;
+
+    .content {
+        position: relative;
+        top: -80px;
+        z-index: 2;
+        padding-bottom: 24px;
+    }
+
+    .ad-img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .index-image-box {
+        width: 750px;
+        height: 100vh;
+    }
+
+    .index-introduce-card {
+        width: 702px;
+        // height: 360px;
+        border-radius: 16px;
+        background: linear-gradient(rgba(0, 169, 255, 0.5), rgba(0, 196, 255, 0.5));
+
+        padding: 12px;
+        margin-left: 18px;
+        margin-bottom: 24px;
+
+        .index-introduce-card-txt {
+            width: 654px;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .index-message-card {
+        width: 702px;
+        height: 360px;
+        border-radius: 16px;
+        padding: 12px;
+        margin-left: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ff6700;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+}

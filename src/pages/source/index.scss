@@ -1,0 +1,10 @@
+@import "src/vars";
+
+.source-page {
+    @include page-style;
+
+    .source-page-img-box {
+        width: 750px;
+        height: 1200px;
+    }
+}

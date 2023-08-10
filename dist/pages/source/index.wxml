@@ -1,0 +1,6 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="source-page">
+        <header compid="{{$compid__15}}"></header>
+        <image class="source-page-img-box" src="https://c-ssl.duitang.com/uploads/item/201407/20/20140720141535_Azvr8.jpeg" bindtap="anonymousFunc0"></image>
+    </view>
+</block>

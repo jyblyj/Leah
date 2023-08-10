@@ -1,0 +1,5 @@
+<block wx:if="{{$taroCompReady}}">
+    <scroll-view scroll-y="{{true}}" enable-back-to-top="{{true}}" class="{{className}}" refresher-enabled="{{refresherEnabled}}" style="{{anonymousState__temp}}" refresher-default-style="{{refresherDefaultStyle}}" refresher-background="{{refresherBackground}}" refresher-triggered="{{refresherTriggered}}" bindrefresherrefresh="funPrivatefzzzz" bindscrolltolower="funPrivategzzzz" lower-threshold="{{lowerThreshold}}" bindscroll="funPrivatehzzzz" scroll-top="{{scrollTop}}">
+        <slot></slot>
+    </scroll-view>
+</block>

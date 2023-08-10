@@ -1,0 +1,26 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="my-info">
+        <view class="my-top" bindtap="funPrivateezzzz">
+            <view class="user-img">
+                <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <view class="user-txt">
+                <block>
+                    <block wx:if="{{myInfo.loginId}}"><text class="nick">{{myInfo.loginId}}</text>
+                    </block>
+                    <block wx:else>
+                        <view class="nick">
+                            <open-data type="userNickName"></open-data>
+                        </view>
+                    </block>
+                </block>
+            </view>
+        </view>
+        <view class="info-list" bindtap="funPrivateezzzz">
+            <view wx:key="name" class="info-list-item" wx:for="{{myList}}" wx:for-item="item" wx:for-index="index"><text>{{item.value}}</text><text class="info-title">{{item.name}}</text>
+                <block wx:if="{{index === 1 && redDot}}"><text class="red-dot"></text>
+                </block>
+            </view>
+        </view>
+    </view>
+</block>

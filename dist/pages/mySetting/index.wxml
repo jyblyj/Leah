@@ -1,0 +1,14 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="my-setting">
+        <header compid="{{$compid__17}}"></header>
+        <scroll-list compid="{{$compid__18}}">
+            <my-info compid="{{$compid__19}}"></my-info>
+            <official-account></official-account>
+            <at-list compid="{{$compid__20}}">
+                <button open-type="share">
+                    <at-list-item compid="{{$compid__21}}"></at-list-item>
+                </button>
+            </at-list>
+        </scroll-list>
+    </view>
+</block>

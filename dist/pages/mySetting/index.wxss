@@ -1,0 +1,21 @@
+.my-setting {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: #F5F5F5;
+}
+.my-list button {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.my-list button::after {
+  border: none;
+}
+.change-account {
+  margin-top: 48rpx;
+  text-align: center;
+}

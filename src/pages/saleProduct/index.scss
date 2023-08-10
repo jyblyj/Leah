@@ -1,0 +1,11 @@
+@import "src/vars";
+
+.page-wrap {
+    @include page-style;
+    background-color: #F5F5F5;
+
+    .page-wrap-img-box {
+        width: 750px;
+        height: 1000px;
+    }
+}

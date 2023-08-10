@@ -1,0 +1,52 @@
+/* 改变主题变量，具体变量名可查看 taro-ui/dist/style/variables/default.scss 文件 */
+$color-brand: #ff6600;
+$color-brand-light: #ff6600;
+/* 引入 Taro UI 默认样式 */
+@import "~taro-ui/dist/style/index.scss";
+
+// 隐藏scroll-view滚动条
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.at-tag{
+  border-radius: 20px;
+  margin: 20px 25px 10px 0;
+  font-size: 24px;
+}
+.at-tag--active{
+  background-color: #ff6000;
+  color: #fff;
+}
+.at-divider__content {
+  background-color: inherit;
+}
+.at-divider{
+  position: relative;
+  margin: auto;
+  width: 80%;
+}
+.at-search-bar {
+  padding: 12px 18px;
+}
+.at-input-number {
+  height: 46px;
+}
+.at-drawer {
+  z-index: 995;
+}
+.at-modal__container {
+  width: auto;
+  top: 40%;
+}
+.at-input input {
+  font-size: 28px;
+  padding-left: 16px;
+}
+.at-action-sheet__container{
+  border-radius: 24px;
+}
+.at-search-bar::after {
+  border-bottom-width: 0 !important;
+}

@@ -1,0 +1,10 @@
+.page-wrap {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #F5F5F5;
+}
+.page-wrap .page-wrap-img-box {
+  width: 750rpx;
+  height: 1000rpx;
+}

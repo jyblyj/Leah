@@ -1,0 +1,81 @@
+@import "src/vars";
+
+.my-info{
+  background: linear-gradient(rgba(0, 169, 255, 0.5), rgba(0, 196, 255, 0.5));
+  color: #fff;
+  .info-notice{
+    position: relative;
+    margin: 0 72px;
+    padding: 24px 0;
+    font-size: 24px;
+    border-radius: 20px 20px 0 0;
+    color: #333;
+    background: linear-gradient(#CDA947, #EACC7C);
+    text-align: center;
+  }
+  .info-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 72px;
+    .info-list-item{
+      position: relative;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 24px;
+      color: #333;
+      .info-title{
+        margin-top: 8px;
+        color: #888;
+      }
+    }
+    .red-dot{
+      display: block;
+      position: absolute;
+      right: 15px;
+      top: -4px;
+      width: 20px;
+      height: 20px;
+      background-color: #FF4949;
+      border-radius: 50%;
+    }
+  }
+  .my-top{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    .user-img{
+      width: 100px;
+      height: 100px;
+      margin: 0 30px;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+    .user-txt{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #888;
+      font-size: 26px;
+      padding: 0 15px;
+      .user-time{
+        display: flex;
+        align-items: center;
+      }
+      .vip-img{
+        width: 110px;
+        height: 34px;
+        margin-right: 8px;
+      }
+      .nick{
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

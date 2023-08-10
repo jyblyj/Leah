@@ -1,0 +1,1 @@
+{"usingComponents":{"header":"../../components/Header/index","scroll-list":"../../components/ScrollList/index","my-info":"./myInfo/index","at-list":"../../npm/_taro-ui@2.3.4@taro-ui/dist/weapp/components/list/index","at-list-item":"../../npm/_taro-ui@2.3.4@taro-ui/dist/weapp/components/list/item/index"}}

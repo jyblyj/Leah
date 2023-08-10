@@ -1,0 +1,57 @@
+{
+    "miniprogramRoot": "dist/",
+    "projectname": "smilepeacefully",
+    "description": "pdd",
+    "appid": "wxab5800acb95e9832",
+    "setting": {
+        "urlCheck": false,
+        "es6": false,
+        "enhance": true,
+        "postcss": false,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": false,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": false,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": false,
+        "useApiHook": false,
+        "useApiHostProcess": false,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": false,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "disableUseStrict": false,
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": false,
+        "ignoreUploadUnusedFiles": true,
+        "condition": false
+    },
+    "compileType": "miniprogram",
+    "condition": {},
+    "libVersion": "2.19.2",
+    "srcMiniprogramRoot": "dist/",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}

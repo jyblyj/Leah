@@ -1,0 +1,9 @@
+.source-page {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.source-page .source-page-img-box {
+  width: 750rpx;
+  height: 1200rpx;
+}

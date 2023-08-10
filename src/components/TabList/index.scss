@@ -1,0 +1,17 @@
+@import "src/vars";
+.tab-item{
+  @include relative-tab;
+  .red-dot{
+    display: block;
+    position: absolute;
+    right: 25%;
+    top: 5%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #FF4949;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+  }
+}

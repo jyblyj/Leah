@@ -1,0 +1,24 @@
+@import "src/vars";
+.my-setting {
+  @include page-style;
+  background: #F5F5F5;
+}
+
+.my-list{
+  button {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  button::after {
+    border: none;
+  }
+}
+
+.change-account{
+  margin-top: 48px;
+  text-align: center;
+}
